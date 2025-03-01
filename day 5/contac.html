@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">Contact</div>
+    <div class="navigation">Home / Pages / Contact</div>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="#">Download Now</a>.</p>
+            
+            <!-- Replaced placeholder with label -->
+            <label for="name">Your Full Name</label>
+            <input type="text" id="name">
+            
+            <label for="email">Your Email</label>
+            <input type="email" id="email">
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject">
+            
+            <label for="message">Message</label>
+            <textarea id="message" rows="4"></textarea>
+            
+            <button onclick="sendMessage()">Send Message</button>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609997717!2d-74.25986668709227!3d40.69714942298416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xadb84e53aaf1ff55!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1632750249872!5m2!1sen!2sin"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
